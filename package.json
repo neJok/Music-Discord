@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.13.0",
+    "canvas": "^2.10.2",
+    "colors": "^1.4.0",
+    "discord.js": "^14.8.0",
+    "fs": "^0.0.1-security",
+    "genius-lyrics": "^4.4.0",
+    "is-image": "^3.1.0",
+    "lavacord": "^1.1.9",
+    "lavasfy": "^2.3.0",
+    "mongoose": "^6.7.3",
+    "mysql2": "^2.3.3",
+    "ts-node-dev": "^2.0.0",
+    "ytdl-getinfo": "^1.1.0"
+  },
+  "_moduleAliases": {
+    "@base": "dist/struct/base",
+    "@struct": "dist/struct",
+    "@db": "dist/database",
+    "@customTypes": "dist/types"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2"
+  }
+}
